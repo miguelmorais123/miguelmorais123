@@ -1,0 +1,31 @@
+body{
+    background-color :  rgb(2, 27, 38)
+}
+main{
+    background-color: white
+    
+}
+blockquote, main footer{
+    background-color: rgb(195, 227, 245); 
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+header h1{
+    color:#fff  
+} 
+nav ul{
+    display:flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    list-style: none;
+}
+nav li{
+    padding: 20px;
+}
+nav a{
+    color: aliceblue;
+
+}
