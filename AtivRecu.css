@@ -1,0 +1,71 @@
+/* SELETORES */
+header{
+     background-color: rgb(27, 15, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 0 145px 0;   
+    text-align: center;
+    color:white ;
+    padding: 0 0 30px 30px;
+
+}
+
+.seção-cabeçalho{
+    background-color: rgb(209, 65, 36);
+    padding: 248px 60px 0 0 ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+main{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    background-color: rgb(27, 15, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* TEXTO */
+
+.navegador-cabecalho{
+    text-decoration: none ;
+    list-style: none;
+}
+
+.titulo{
+    font-size: 48px;
+    margin: 0 0 0 0;
+}
+
+a{
+    text-decoration: none;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 18px;
+}
+
+nav ,ul , li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 0 30px 30px;
+    gap: 30px;
+    justify-content:  center;
+
+}
+
+.caixa{
+    background-color: white;
+    color:fff;
+    padding: 60px 0 0 0;
+   text-align: center;
+}
+
+.conteiners{
+    flex-direction: row;
+    display:flex;
+    justify-content: space-around;
+}
+
