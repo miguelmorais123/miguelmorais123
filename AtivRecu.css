@@ -32,8 +32,8 @@ header h2{
     color:  rgb(110, 109, 109);
 }
 .seção-cabeçalho{
-    background-color: rgb(209, 65, 36);
-    padding: 248px 60px 0 0 ;
+    background-color: rgb(219, 71, 42);
+    padding: 100px 60px 0 0 ;
     
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -76,6 +76,10 @@ a{
     font-size: 18px;
 }
 
+main div a{
+    text-decoration: underline;
+    color: #783c00;
+}
 
 .caixa{
     width: 240px;
@@ -83,8 +87,22 @@ a{
     border: none;
     display:flex;
     flex-direction: column;
+    text-align: center;
 }
 
+.botao-caixa{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 100px 100px 100px;
+    align-items: center;
+    background-color: rgb(175, 20, 59);
+    padding: 48px 0 0 0 ;   
+}
+
+.caixa p{
+    padding:  0 0 0 0px;
+    margin: 0;
+}
 .conteiners{
     display: flex;
     flex-direction: row;
@@ -98,6 +116,21 @@ a{
     padding-left: 36%;
     color: rgb(83, 83, 83) ;
 }
+div strong{
+    font-size: 58px;
+    text-decoration-style: solid;
+    color:rgb(27, 15, 0) ;
+    padding: 0 0 0 0 ;
+}
+main div aside{
+    padding: 70px  300px 40px 300px;
+    text-align: center;
+    color: rgb(28, 15, 0);
+    font-size: 18px;
+    
+}
+
+
 
 section h2{
     font-size: 14px;
@@ -122,7 +155,7 @@ section h2{
 }
 
 .caixa-2{
-    background-color: white
+    background-color: white;
     color:fff;
     width: 300px;
     height: 100%;
