@@ -4,6 +4,40 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+header{
+    display:flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+header h2{
+    flex-wrap: wrap;
+    padding: 25px 15px 0 0;
+
+}
+
+#cabecalho-texto{
+    display:block;
+    height: 40px;
+    width: 50%;
+    
+}
+
+aside{
+    background-color:  #012E40 ;
+    border-radius: 7px;
+    padding: 0px;
+    text-align: row;
+    width: 5%;
+    margin: 8px;   
+    height: 80px;
+}
+
+aside p{
+    margin: 0;
+    height: 0;
+    padding: 15px 0 0 0;
+}
 /****** CONTEUDO ******/
 
 /****** CORPO ******/
@@ -61,11 +95,7 @@ button{
    transition: 2s;
 }
 
-button:hover{
-    transition: 2s;
-    color: orange;
-    background-color: gray;
-}
+
 /****** LIGUE JÁ ******/
 
 em{
@@ -74,59 +104,14 @@ em{
     font-style: normal;
 }
 
-button:active{
-    background-color: gray;
-    color: white;
-}
-/****** LINKS ******/
 
-a:hover{
-    transition: 7ms;
-    color: orange;
-    text-decoration: none;
-   
-}
 
 
 body{
     margin: 0;
 }
 
-/****** CABECALHO ******/
-header{
-    display:flex;
-    flex-direction: row;
-    padding: 0;
-}
 
-header h2{
-    flex-wrap: wrap;
-    padding: 25px 15px 0 0;
-
-}
-
-#cabecalho-texto{
-    display:block;
-    height: 40px;
-    width: 50%;
-    
-}
-
-aside{
-    background-color:  #012E40 ;
-    border-radius: 7px;
-    padding: 0px;
-    text-align: row;
-    width: 5%;
-    margin: 8px;   
-    height: 80px;
-}
-
-aside p{
-    margin: 0;
-    height: 0;
-    padding: 15px 0 0 0;
-}
 
 #cabecalho-texto-tel{
     display: flex;
@@ -135,7 +120,7 @@ aside p{
     height: 310px;
     width: 60%;
     padding-top: 3px;
-    background-image: url(/e-Miguel/imagens/entregador.png);
+    background-image: url(/miguelmorais123.github.io/e-Miguel/imagens/entregador.png);
     background-repeat: no-repeat;
     background-size: 300px;
 
@@ -173,7 +158,6 @@ nav li{
     margin: 0;
 }
 
-/****** CONTEINERS *******/
 
 #caixinhas{
     display: flex;
@@ -214,35 +198,6 @@ footer{
     height: 100%;
 }
 
-#footcontent{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 100%;
-    padding: 0;
-}
-
-footer p, legend, footer li{
-    color:aliceblue;
-    
-}
-
-#footleft,#footright{
-    margin: 5px;
-    height: 100%;
-}
-
-#footleft{
-    width: 60%;
-}
-
-#footright{
-    width: 40%;
-}
-
-footer img{
-    width: 20px;
-}
 
 footer ul{
     padding: 10px;
@@ -279,4 +234,30 @@ input{
 }
 
 
+
+#footcontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0;
+}
+
+footer p, legend, footer li{
+    color:aliceblue;
+    
+}
+
+#footleft,#footright{
+    margin: 5px;
+    height: 100%;
+}
+
+#footleft{
+    width: 60%;
+}
+
+#footright{
+    width: 40%;
+}
 

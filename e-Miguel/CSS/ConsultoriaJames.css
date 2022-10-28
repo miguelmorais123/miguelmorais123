@@ -13,6 +13,36 @@ footer {
         box-sizing: border-box;
 }
 
+footer{
+    padding: 0 0 0 0;
+    color: #fff;
+}
+.copy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Tahoma, sans-serif;
+    font-style: italic;
+}
+
+main footer{
+    background-color: rgb(195, 227, 245);
+    width: auto;
+    padding: 0;
+}
+footer li{
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 40px 0 40px;
+    
+}
+
+.navpe{
+color: black;
+}
+
 /****** TEXTO *****/
 h2{
     font-size: 48px;
@@ -86,7 +116,7 @@ nav a{
 /****** BANNER ******/
 
 #banner {
-     background-image: url(/imagens/surfer\ girl.jpg);
+     background-image: url(/miguelmorais123.github.io/e-Miguel/imagens/surfer\ girl.jpg);
      background-repeat: no-repeat;
      background-size: 100% 100%;
      background-position: 0 5px;
@@ -211,35 +241,7 @@ blockquote, main footer{
     margin: 0 0 25px 10px;
 }
 
-footer{
-    padding: 0 0 0 0;
-    color: #fff;
-}
-.copy{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-family: Tahoma, sans-serif;
-    font-style: italic;
-}
 
-main footer{
-    background-color: rgb(195, 227, 245);
-    width: auto;
-    padding: 0;
-}
-footer li{
-    margin:auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 40px 0 40px;
-    
-}
-
-.navpe{
-color: black;
-}
 
 .navppe strong{
     color:rgb(23, 176, 228);
