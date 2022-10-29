@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header,main,nav ul,#rodape-conteudo{
+    width: 840px;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+}
+
+#cabecalho-texto-mudancas{
+    color: rgb(255, 115, 0);
+    font-style: normal;
+}
+
+.cabecalho-titulo{
+    padding: 3% 0 30px 0 ;
+   
+    margin: 0 55% 30px 0;
+}
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    height: 310px;
+    width: 60%;
+    padding-top: 3px;
+    background-image: url(/miguelmorais123.github.io/e-Miguel/imagens/entregador.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
