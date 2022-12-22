@@ -59,6 +59,7 @@
    width: 100%;
    height: 100%;
    clip-path: polygon(0 0,30% 0, 50% 100%, 0 100%);
+   right: 6% ;
    z-index: 2;
    background-image: url(/e-Miguel/imagens/brasao-fut-argentina.png);
    background-repeat: no-repeat;
@@ -67,7 +68,7 @@
 }
 .Lionel-Messi{
    position: absolute;
-   width: 400px;
+   width: 700px;
    top: 55%;
    left: 50%;
    transform: translate(-50%, -50%);
@@ -79,18 +80,18 @@
 .papel-de-parede-texto{
    width: 40%;
    position: absolute;
-   top: 50%;
-   left: 50%;
+   top: 35%;
+   left: 65%;
    text-transform: uppercase;
    font-size: 20px;
    color: white;
    transform: translateY(-50%);
 }
-.papel-de-parede-texto button{
+.papel-de-parede-texto button a{
    width: 170px;
    height: 40px;
    background-color: #2962ff;
-   color: #eee;
+   color: rgb(0, 0, 0);
    font-size: 14px;
    font-weight: bold;
    text-transform: uppercase;
@@ -98,6 +99,6 @@
    border-radius: 10px;
    border:none;
    font-family: 'Caladea','serif';
- 
+   top: 12%;
    
 }
