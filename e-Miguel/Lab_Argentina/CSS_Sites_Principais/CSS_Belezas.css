@@ -59,6 +59,7 @@ header .navegacao li a{
     font-weight: 500;
     font-size: 24px;
     margin-left: 100px;
+    z-index: 20px;
 }
 
 .conteiner{
@@ -85,14 +86,15 @@ header .navegacao li a{
 }
 
 .conteiner .texto h2 span{
-    font-size: 1.5em;
+    font-size: 1.0em;
     color: #088004;
 }
 
 .conteiner .texto p{
     color: white;
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 1px;
+    
 }
 
 .conteiner .texto a{
@@ -101,7 +103,7 @@ header .navegacao li a{
     padding: 10px 25px;
     background:#0e03fc;
     color: white;
-    font-weight: 500;
+    font-weight: 00;
     text-decoration: none;
     letter-spacing: 1px;
     border-radius: 40px;
@@ -114,7 +116,7 @@ header .navegacao li a{
 .Natureza {
     position: absolute;
     left: 70%;
-    bottom: -40px;
+    bottom: -60px;
     
 }
 

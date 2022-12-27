@@ -1,89 +1,77 @@
-@import url('https://fonts.googleapis.com/css2? family= Caladea & family= Poppins:wght@300;400;500;600;700 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', serif;
+    font-family: 'Poppins', sans-serif;
     list-style: none;
     text-decoration: none;
 }
-
 :root{
     --red:#d63a25;
     --white:#fff;
     --dark:#1e1c2a;
 }
-
 body{
-    color:var(--dark);
-    background: var(white);
+    color: var(--dark);
+    background: var(--white);
 }
-.Navegacao {
+.navigation{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 18px 40px;
-    background-color: #d63a25;
-    box-shadow: 0 0.1 0.5rem #ccc;
+    box-shadow: 0 0.1rem 0.5rem #ccc;
     width: 100%;
     background: var(--white);
-    transition: all 0.5%;
+    transition: all 0.5s;
+    position: fixed;
 }
-
-.Navegacao .logo-Argentina{
-    color:#d63a25;
-    font-size: 1.7em;
-    font-weight:600;
-
+.navigation .logo{
+    color: var(--red);
+    font-size: 1.7rem;
+    font-weight: 600;
 }
-.logo-Argentina span{
-    color: #1e1c2a;
+.logo span{
+    color: var(--dark);
 }
-
-.Navegacao ul{
+.navigation ul{
     display: flex;
     align-items: center;
     gap: 5rem;
 }
-.Navegacao ul li a{
-    color: black;
+.navigation ul li a{
+    color: var(--dark);
     font-size: 17px;
     font-weight: 500;
     transition: all 0.5s;
-
 }
-
-.Navegacao ul li a:hover{
-    color:#d63a25;
-
+.navigation ul li a:hover{
+    color: var(--red);
 }
-
-.logo-Argentina i{
+.navigation i{
     cursor: pointer;
-    font-size: 1.5rem ;
+    font-size: 1.5rem;
 }
-
 .menu{
     cursor: pointer;
+    display: none;
 }
-
 .menu .bar{
     display: block;
     width: 28px;
     height: 3px;
-    border-radius: 3px ;
-    background: #1e1c2a;
-    margin:5px auto;
+    border-radius: 3px;
+    background: var(--dark);
+    margin: 5px auto;
     transition: all 0.3s;
 }
-
 .menu .bar:nth-child(1),
 .menu .bar:nth-child(3){
-    background: #d63a25;
+    background: var(--red);
 }
-
-.Principal{
+.home{
     width: 100%;
     height: 100vh;
     display: flex;
@@ -91,39 +79,33 @@ body{
     justify-content: space-between;
     padding: 0px 10%;
 }
-.texto-principal{
+.home-text{
     max-width: 37rem;
 }
-
-.texto-principal .texto-h4{
+.home-text .text-h4{
     font-size: 1.5rem;
-    color: #d63a25;
+    color: var(--red);
     margin-bottom: 1rem;
 }
-
-.texto-principal .texto-h1{
+.home-text .text-h1{
     font-size: 4rem;
     margin-bottom: 1rem;
     line-height: 4rem;
 }
-
-.texto-principal p{
-    margin-bottom: 4px;
+.home-text p{
+    margin-bottom: 4rem;
 }
-
-.btn-principal{
+.home-btn{
     padding: 15px 45px;
-    background: #d63a25;
-    color: white;
+    background: var(--red);
+    color: var(--white);
     border-radius: 10px;
     font-weight: 700;
-    transition: all 0.5;
+    transition: all 0.5s;
 }
-
-.btn-principal:hover{
-    background: #d63a25;
+.home-btn:hover{
+    background: #fc4c35;
 }
-
-.img-principal img{
+.home-img img{
     width: 100%;
 }
