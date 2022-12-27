@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2? family= Caladea & family= Poppins:wght@300;400;500;600;700 & display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --red:#d63a25;
+    --white:#fff;
+    --dark:#1e1c2a;
+}
+
+body{
+    color:var(--dark);
+    background: var(white);
+}
+.Navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 40px;
+    background-color: #d63a25;
+    box-shadow: 0 0.1 0.5rem #ccc;
+    width: 100%;
+    background: var(--white);
+    transition: all 0.5%;
+}
+
+.Navegacao .logo-Argentina{
+    color:#d63a25;
+    font-size: 1.7em;
+    font-weight:600;
+
+}
+.logo-Argentina span{
+    color: #1e1c2a;
+}
+
+.Navegacao ul{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.Navegacao ul li a{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+
+}
+
+.Navegacao ul li a:hover{
+    color:#d63a25;
+
+}
+
+.logo-Argentina i{
+    cursor: pointer;
+    font-size: 1.5rem ;
+}
+
+.menu{
+    cursor: pointer;
+}
+
+.menu .bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 3px ;
+    background: #1e1c2a;
+    margin:5px auto;
+    transition: all 0.3s;
+}
+
+.menu .bar:nth-child(1),
+.menu .bar:nth-child(3){
+    background: #d63a25;
+}
+
+.Principal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+.texto-principal{
+    max-width: 37rem;
+}
+
+.texto-principal .texto-h4{
+    font-size: 1.5rem;
+    color: #d63a25;
+    margin-bottom: 1rem;
+}
+
+.texto-principal .texto-h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+}
+
+.texto-principal p{
+    margin-bottom: 4px;
+}
+
+.btn-principal{
+    padding: 15px 45px;
+    background: #d63a25;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: all 0.5;
+}
+
+.btn-principal:hover{
+    background: #d63a25;
+}
+
+.img-principal img{
+    width: 100%;
+}

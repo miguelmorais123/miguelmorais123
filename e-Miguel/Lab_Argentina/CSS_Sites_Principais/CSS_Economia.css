@@ -8,12 +8,12 @@
 }
 
 body{
-    background-color: white;
+    background-color: #dfdfd5;
 }
 
 header{
     padding: 20px 70px;
-    background-color: royalblue;
+    background-color:#54acdc;
 }
 
 .navegacao{
@@ -31,7 +31,7 @@ header{
     gap: 100px;
 }
 .navegacao ul li a{
-    color: #888;
+    color: #f0f0f0;
     font-weight: 600;
     padding-bottom: 4px;
     transition: all 0.5s ease-in-out;
@@ -50,4 +50,55 @@ main section{
     align-items: center;
     justify-content: space-between;
     padding: 5rem 10rem;
+}
+.principal-texto img{
+    width: 10rem;
+    margin-bottom: 3vh;
+}
+.principal-texto h3{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.principal-texto p{
+    margin-bottom: 1.5rem;
+}
+.principal-texto h6{
+    color: #999;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+.principal-texto .btn{
+    padding: 10px 25px;
+    background-color: #0071e3;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: all 0.5;
+}
+.principal-texto .btn:hover{
+    opacity: .85;
+}
+.imagem-principal 
+
+.imagem-principal{
+    transition: all 1s ease;
+    z-index: 100;
+}
+.imagem-principal img{
+    width: 600px;
+    transform: rotate(0deg);
+    
+    
+}
+.circulo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #05676e;
+    clip-path: circle(700px at right 880px);
+    z-index: -8;
 }
